@@ -69,3 +69,9 @@ func WithTraceIDField(on bool, key string) Option {
 		l.traceIDKey = key
 	}
 }
+
+func WithTraceIDValueMap(f func(string) string) Option {
+	return func(l *Logger) {
+		l.traceIDValueMap = f
+	}
+}
