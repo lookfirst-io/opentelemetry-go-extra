@@ -1,3 +1,21 @@
+## [0.3.1](https://github.com/uptrace/opentelemetry-go-extra/compare/v0.3.0...v0.3.1) (2024-06-13)
+
+
+### Bug Fixes
+
+* **otelgorm:** make metric reporting work with prepared statements ([d3f269a](https://github.com/uptrace/opentelemetry-go-extra/commit/d3f269a5e01bcc2fa83ec5e804c46a3d2a4bec37))
+
+
+
+# [0.3.0](https://github.com/uptrace/opentelemetry-go-extra/compare/v0.2.4...v0.3.0) (2024-05-23)
+
+
+### Features
+
+* convert otelzap to use logs api ([3f68ff6](https://github.com/uptrace/opentelemetry-go-extra/commit/3f68ff647621462a09ecfbbaa7629fc19b6418af))
+
+
+
 ## [0.2.4](https://github.com/uptrace/opentelemetry-go-extra/compare/v0.2.3...v0.2.4) (2024-03-18)
 
 
